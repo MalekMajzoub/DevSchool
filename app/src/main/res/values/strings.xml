@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dev School</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="fragments">
+        <item>Syntax</item>
+        <item>Variables</item>
+        <item>Strings</item>
+        <item>Booleans</item>
+        <item>Conditional Statements</item>
+        <item>For Loops</item>
+        <item>Arrays</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_text">You can change your profile picture by clicking on the below button.</string>
+
+    <string name="title_activity_quiz_one">QuizOne</string>
+
+    <string name="aboutUs">We are a non profit organization that seeks to introduce programming to beginners.
+    We are four college students who aim to teach people programming skills. </string>
+
+
+
+</resources>

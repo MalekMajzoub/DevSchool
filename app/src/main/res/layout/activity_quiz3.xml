@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    android:padding="16dp"
+    tools:context=".Quiz3">
+
+    <TextView
+        android:id="@+id/quiz3_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:id="@+id/quiz3_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="01:30"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="482dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="66dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/quiz3_question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/quiz3_radio_group1"
+            android:text="Question is here"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/quiz3_radio_group1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="225dp"
+            android:paddingTop="5dp">
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button11"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option A" />
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button12"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option B" />
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button13"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option C" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quiz3_question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/quiz3_radio_group1"
+            android:text="Question is here"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/quiz3_radio_group2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="225dp"
+            android:paddingTop="5dp">
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button21"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option A" />
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button22"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option B" />
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button23"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option C" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quiz3_question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/quiz3_radio_group1"
+            android:text="Question is here"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/quiz3_radio_group3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="225dp"
+            android:paddingTop="5dp">
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button31"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option A" />
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button32"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option B" />
+
+            <RadioButton
+                android:id="@+id/quiz3_radio_button33"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Option C" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/quiz3_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/quiz3_radio_group1"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:text="Confirm" />
+
+    </LinearLayout>
+
+</RelativeLayout>

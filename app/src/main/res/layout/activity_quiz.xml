@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img"
+    tools:context=".Quiz"
+    android:orientation="vertical">
+
+  <androidx.appcompat.widget.Toolbar
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:background="@drawable/background_img">
+
+    <Button
+        android:id="@+id/backBtn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="@color/black" />
+  </androidx.appcompat.widget.Toolbar>
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+      android:layout_marginBottom="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+      <TextView
+          android:layout_width="330dp"
+          android:layout_height="58dp"
+          android:layout_marginTop="10dp"
+          android:text="Quizzes for each lesson"
+          android:textColor="@android:color/black"
+          android:textSize="30sp"
+          android:layout_marginBottom="15dp"/>
+
+      <Button
+          android:id="@+id/button_quiz_one"
+          android:layout_width="329dp"
+          android:layout_height="32dp"
+          android:layout_marginBottom="20dp"
+          android:background="@android:color/holo_purple"
+          android:text="Start Quiz One"
+          android:textColor="@android:color/black"
+          android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/button_quiz_two"
+            android:layout_width="330dp"
+            android:layout_height="32dp"
+            android:background="@android:color/holo_purple"
+            android:text="Start Quiz Two"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/button_quiz_three"
+            android:layout_width="330dp"
+            android:layout_height="32dp"
+            android:background="@android:color/holo_purple"
+            android:text="Start Quiz Three"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/button_quiz_four"
+            android:layout_width="330dp"
+            android:layout_height="32dp"
+            android:background="@android:color/holo_purple"
+            android:text="Start Quiz Four"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/button_quiz_five"
+            android:layout_width="330dp"
+            android:layout_height="32dp"
+            android:background="@android:color/holo_purple"
+            android:text="Start Quiz Five"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:layout_marginBottom="20dp"  />
+      </LinearLayout>
+
+</LinearLayout>
